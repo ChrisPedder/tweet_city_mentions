@@ -36,8 +36,6 @@ To deal with this problem of false positives, early in the project I resolved to
 
 The best approach for producing interactive html maps in python is Folium, which allows us to choose an accurate basemap, and then plot markers with included text data on a second, removable layer.
 
-[](https://github.com/ChrisPedder/tweet_city_mentions/blob/master/ChrispyPedder_map.html)
-
 ## API keys needed.
 
 In order to run this scraper, we need two different APIs (Application programming interfaces). The first is the twitter API, which requires i) that we have a twitter account (it doesn't have to be our own, or one that is used), and ii) that we register as an app developer at http://apps.twitter.com. To quote from Marco Bonzanini's page "You will receive a 'consumer key' and a 'consumer secret': these are application settings that should always be kept private. From the configuration page of your app, you can also require an access token and an access token secret. Similarly to the consumer keys, these strings must also be kept private: they provide the application access to Twitter on behalf of your account."
