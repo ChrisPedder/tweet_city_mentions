@@ -11,20 +11,17 @@ The objective of this project it to write a short workbook that will allow the u
 
 The analysis code is designed for use with python 3.6. Additional packages required for this installation are:
 
-Pandas
-Numpy
-Requests
-Matplotlib
+1. Pandas
+1. Numpy
+1. Requests
+1. Matplotlib
+1. Geotext
+1. Transliterate
+1. Folium
 
-Geotext (installed by command line: sudo pip install geotext)
-Transliterate (installed by command line: sudo pip install transliterate)
-CSV
-Re
-Folium
+(install via ```pip install -r requirements.txt```)
 
-(see requirements.txt)
-
-Additionally, the modified tweet_dumper.py file from (https://gist.github.com/yanofsky/5436496) is needed. This function is nicely documented in the book ?Mastering Social Media Mining with Python? by Marco Bonzanini (Packt 2016), and on his website (https://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/ ). The modified function can deal with the newer 280char tweets available since November 2017.
+Additionally, the modified tweet_dumper.py file from (https://gist.github.com/yanofsky/5436496) is needed. This function is nicely documented in the book "Mastering Social Media Mining with Python" by Marco Bonzanini (Packt 2016), and on his website (https://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/ ). The modified function can deal with the newer 280char tweets available since November 2017.
 
 TODO - this function needs to be updated to deal with utf-8 encoding of non-ASCII characters, so that we can scrape tweets from e.g. Russian and Chinese character sets.
 

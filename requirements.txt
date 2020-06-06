@@ -1,0 +1,8 @@
+numpy==1.18.1
+pandas==1.0.4
+requests==2.23.0
+tweepy==3.5.0
+matplotlib==3.2.1
+geotext==0.4.0
+transliterate==1.10.2
+folium==0.11.0
