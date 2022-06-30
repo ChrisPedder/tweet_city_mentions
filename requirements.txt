@@ -6,3 +6,4 @@ matplotlib==3.2.1
 geotext==0.4.0
 transliterate==1.10.2
 folium==0.11.0
+snscrape==0.4.3.20220106
